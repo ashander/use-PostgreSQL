@@ -1,0 +1,5 @@
+export(pgCon)
+export(pgDiscon)
+export(pgQry)
+export(pgTab)
+import(RPostgreSQL)
