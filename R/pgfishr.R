@@ -26,7 +26,7 @@ pgCon<-function(auth.list=getOption("pg.auth", stop("Need to provide a list of a
   }
 
 
-#' Close connection to PostgreSQL DB
+#' Close all connections to PostgreSQL DB
 #' @param con.drv a list containing a non-expired connection to and driver for PgSQL database
 #' @details closes databse connection using DBI-compliant connection via RPostgreSQL package
 #' @import RPostgreSQL
@@ -39,9 +39,10 @@ pgCon<-function(auth.list=getOption("pg.auth", stop("Need to provide a list of a
 
 pgDiscon<-function(con.drv=NULL){
   ## need error check
-  dbDisconnect(con.drv$connection)  ## Closes the connection
+  allcons <-dbListConnections(con$driver)
+  for (i in 1:length(allcons)){dbDisconnect(allcons[[i]])} ## Closes all connections
   dbUnloadDriver(con.drv$driver)  ## Frees all the resources on the driver
-  return(NULL)
+  return (NULL)
 }
 
                    

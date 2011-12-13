@@ -1,6 +1,6 @@
 \name{pgDiscon}
 \alias{pgDiscon}
-\title{Close connection to PostgreSQL DB}
+\title{Close all connections to PostgreSQL DB}
 \usage{
   pgDiscon(con.drv = NULL)
 }
@@ -9,7 +9,7 @@
   to and driver for PgSQL database}
 }
 \description{
-  Close connection to PostgreSQL DB
+  Close all connections to PostgreSQL DB
 }
 \details{
   closes databse connection using DBI-compliant connection
