@@ -1,7 +1,7 @@
 Package: usePostgreSQL
 Type: Package
 Title: R wrapper for PostgreSQL DB
-Version: 0.0-1
+Version: 0.1-1
 Date: 2011-12-12
 Author: Jaime Ashander
 Maintainer: Jaime Ashander <jashander@ucdavis.edu>
