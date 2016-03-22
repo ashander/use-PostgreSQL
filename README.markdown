@@ -1,4 +1,4 @@
-Package: pgfishr
+Package: usePostgreSQL
 
 Type: Package
 

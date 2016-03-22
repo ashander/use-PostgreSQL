@@ -1,4 +1,4 @@
-Package: pgfishr
+Package: usePostgreSQL
 Type: Package
 Title: R wrapper for PostgreSQL DB
 Version: 0.0-1
