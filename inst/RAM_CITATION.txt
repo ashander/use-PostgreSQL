@@ -1,0 +1,30 @@
+citHeader("Use data for publication only after reading/comlying with fair use
+		policy
+		(http://ramlegacy.marinebiodiversity.ca/ram-legacy-stock-assessment-database/ram-legacy-stock-assessment-database-fair-use-policy)
+		to cite RAM legacy DB in publications use:")
+
+citEntry(entry = "Article",
+		title        = "Evaluating the knowledge base and status of commercially
+		exploited marine species with the RAM Legacy Stock Assessment Database",
+		author       = personList(as.person("D. Richard"),as.person("C.
+				Minto"),as.person("O.P. Jensen"),as.person("J.K. Baum")),
+		journal      = "Fish and Fisheries",
+		year         = "2011",
+		volume       = "",
+		number       = "",
+		pages        = "",
+		doi          = "10.1111/j.1467-2979.2011.00435.x",
+
+		textVersion  =
+		paste("Ricard, D., Minto, C., Jensen, O.P. and
+			Baum, J.K. (in press)",
+			"Evaluating the knowledge base
+			and status of commercially
+			exploited marine species with
+			the RAM Legacy Stock Assessment
+			Database.",
+			"Fish and
+			Fisheries",
+			"doi:
+			10.1111/j.1467-2979.2011.00435.x")
+		)

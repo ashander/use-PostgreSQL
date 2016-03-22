@@ -12,3 +12,6 @@ Depends:
 LazyLoad: yes
 Collate:
     'pgfishr.R'
+Suggests: ggplot2,
+    reshape,
+    stringr
